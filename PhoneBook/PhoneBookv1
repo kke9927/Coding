@@ -1,0 +1,16 @@
+package phonebook;
+
+public class PhoneBookv1 {
+
+	public static void main(String[] args) {
+	
+		PhoneInfo person = new PhoneInfo();
+		person.setName("Jason");
+		person.setPhoneNumber("(647) 860-5927");
+		person.setBirthday("1989-12-02");
+		
+		person.showPhoneInfo();
+		
+	}
+
+}
