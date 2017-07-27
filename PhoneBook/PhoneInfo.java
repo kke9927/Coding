@@ -7,6 +7,13 @@ class PhoneInfo {
 	private String birthday;
 	
 	
+	public PhoneInfo(String name, String phoneNumber, String birthday) {
+		super();
+		this.name = name;
+		this.phoneNumber = phoneNumber;
+		this.birthday = birthday;
+	}
+
 	public String getName() {
 		return name;
 	}
@@ -33,7 +40,9 @@ class PhoneInfo {
 	
 	void showPhoneInfo()
 	{
-		System.out.println("Name :" + name + " Phone Number :" + phoneNumber + " birthday :" + birthday);
+		System.out.println("\nShow phone info..");
+		System.out.println("Name : " + name +  " \nPhone Number : " + phoneNumber + " \nbirthday : " + birthday);
+		System.out.println();
 	}
 }
 
